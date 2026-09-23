@@ -1,0 +1,33 @@
+public class NoSunshine {
+public static void main(String[] args){
+   a();
+   System.out.println("\nIt's not warm when she's away");
+   a();
+   System.out.println("\nAnd she's always gone too long");
+   g();
+   System.out.println("\nWonder this time where she's gone\nWonder if she's gone to stay");
+   a();
+   System.out.println("\nAnd this house just ain't got no home");
+   g();
+   System.out.println();
+   System.out.print("And ");
+   for(int i=0;i<25;i++){
+   System.out.print("I know, ");
+   }
+   System.out.println("I know");
+   System.out.println("\nHey, I aught to leave young things alone\nBut ain't no sunshine when she's gone, whoa-whoa");
+   a();
+   System.out.println("\nOnly darkness every day\n");
+   a();
+   System.out.println("\nAnd this house just ain't no home\n");
+   for(int i=0;i<4;i++){
+   g();
+   }
+}
+public static void a(){
+   System.out.print("Ain't no sunshine when she's gone");
+}
+public static void g(){
+   System.out.println("Anytime she goes away");
+}
+}
